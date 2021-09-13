@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Profile Page</title>
+  <link rel="icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/profilepage.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+</head>
+
+<body style="background-color:#FEFBF3">
+
+  <!-- navigation bar -->
+  <!--
+  <nav class="navbar navbar-expand-lg   navigationbar" style="background-color: #37517e;">
+    <div class="collapse navbar-collapse">
+
+      <span class="navbar-brand mb-0 h2 head">Xperience</span>
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Profile</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="userinfo.html">Edit</a>
+        </li>
+      </ul>
+      <form class="form-inline ml-auto">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+
+  </nav>
+    -->
+<div class="container bootstrap snippets bootdey">
+  <div class="row">
+
+<!-- profile section -->
+<div class="profile-nav col-md-3">
+    <div class="panel">
+      <div class="user-heading">
+                       <img class="profilepic" src="images/profilepic.png" alt="">
+                   <h1 class="nameheading">Anupam Jha</h1>
+                   <p class="emailadd">lcs2019055@iiitl.ac.in</p>
+               </div>
+
+
+               <ul class="list-group">
+                            <li class="list-group-item"><a href="profilepage.html"> <i class="far fa-user" style="padding-right:5px"></i> Profile</a></li>
+                            <li class="list-group-item"><a href="activity.html"> <i class="fas fa-rss-square" style="padding-right:5px"></i>Users Activity</a></li>
+                            <li class="list-group-item"><a href="userinfo.html"> <i class="far fa-edit" style="padding-right:5px"></i>Edit profile</a></li>
+                        </ul>
+</div>
+</div>
+<!-- posting exo -->
+  <div class="profile-info col-md-9">
+    <div class="panel">
+        <form>
+            <input type = "text" class="compname"placeholder="  Company Name" size="109" style="margin-bottom:5px"></input>
+            <textarea placeholder="Share your experience here..." rows="5" class="form-control input-lg p-text-area"></textarea>
+        </form>
+        <footer class="panel-footer">
+            <button class="btn btn-primary share-button" style="background-color: #37517e">Share</button>
+        </footer>
+    </div>
+<!-- user info -->
+<div class="panel">
+    <div class="bio-graph-heading">
+
+      Hello friends I am anupam jha and currently i am software developer at Amazon and I have 100 years of exp.
+    </div>
+    <div class="panel-body bio-graph-info">
+        <h1 class="headbio">Bio Graph</h1>
+        <div class="row">
+            <div class="bio-row">
+                <p> <i class="fas fa-user"  style="padding-right:5px; padding-left:5px"></i>Name: Anupam Jha</p>
+            </div>
+            <div class="bio-row">
+                <p><span><i class="fas fa-user-graduate" style="padding-right:5px; padding-left:5px"></i>Graduation Year</span>: 2023</p>
+            </div>
+            <div class="bio-row">
+                <p><span><i class="fas fa-user-tie" style="padding-right:5px; padding-left:5px"></i>Current Company</span>: Amazon</p>
+            </div>
+            <div class="bio-row">
+                <p><span><i class="fas fa-file-code" style="padding-right:5px; padding-left:5px"></i>Position</span>: Software Developer</p>
+            </div>
+            <div class="bio-row">
+                <p><span><i class="fas fa-laptop" style="padding-right:5px; padding-left:5px"></i>Branch</span>: Computer Science</p>
+            </div>
+        </div>
+
+        <h1 class="headbio">Profile links</h1>
+        <div class="row">
+            <div class="bio-row">
+                <img class="linksimg" src="images/codeforces.jpg" alt="">
+                 <a href="www.codeforces.com">www.codeforces.com</a>
+            </div>
+            <div class="bio-row">
+                <img class="linksimg" src="images/gfg.jpg" alt="">
+               <a href="www.geeksforgeeks.com">www.geeksforgeeks.com</a>
+            </div>
+            <div class="bio-row">
+                <img class="linksimg" src="images/linkedin.jpg" alt="">
+               <a href="www.linkedin.com">www.linkedin.com</a>
+            </div>
+            <div class="bio-row">
+                <img class="linksimg" src="images/leetcode.jpg" alt="">
+               <a href="www.leetcode.com">www.leetcode.com</a>
+            </div>
+              <div class="bio-row">
+                <img class="linksimg" src="images/github.jpg" alt="">
+               <a href="www.github.com">www.github.com</a>
+              </div>
+        </div>
+    </div>
+
+</div>
+<div class="article"><h3>My Articles</h3></div>
+
+<div class="panel">
+  <div class="card" style="margin-top:10px;">
+    <!--
+<div class="card-block">
+  <div>  <img class="profilepic" src="images/leetcode.jpg" alt=""><strong class="namehead">Anupam Jha</strong></div>
+  </div>
+   -->
+    <div class="row ">
+      <div class="col-1">
+        <img class="profilepics" src="images/profilepic.png" alt="">
+      </div>
+      <div class="col-7 namehead">
+        <div><strong>Anupam Jha</strong></div>
+        <div class="intro"><i class="fas fa-user-graduate"></i> 2019</div>
+      </div>
+      <div class="col-2">
+        <div class="edit">
+          <a href="#"><i class="fas fa-trash-alt" style="padding-rigth:5px;"></i></a>
+          <a href="#"><i class="far fa-edit" style="padding-rigth:5px;"></i></a>
+          <a href="#"><i class="fas fa-save"></i></a>
+        </div>
+      </div>
+
+    </div>
+    <hr>
+    <div class="card-block">
+      <div class="timeline-details">
+        <div>Amazon</div>
+        <p >Round 1: Online Assessment:
+
+          Debugging: Solved 7/7, time limit was 20 minutes.
+          Coding:
+          https://leetcode.com/discuss/interview-question/241808/Google-Two-sum-closest
+          Problem-based on binary search.
+          Worklife assessment: Don’t know the time limit, was sufficient. (The mail mentioned it would be 20 minutes but there was no timer in this section).
+          Aptitude: 24 questions in 30 minutes.</p>
+      </div>
+    </div>
+    <hr>
+    <div class="card-block social-msg">
+      <i class="fas fa-thumbs-up" style="padding-right:5px;"></i><span>Likes (20)</span>
+    </div>
+
+  </div>
+</div>
+
+    </div>
+    </div>
+</div>
+</body>
+</html>
